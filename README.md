@@ -36,8 +36,8 @@ Connect your MicroSD Card Module to the ESP32 using the standard VSPI pins:
    * `AsyncTCP` (Mathieu Carbou's updated fork recommended for ESP32 Core 3.x)
 4. Update the Wi-Fi credentials in the code:
    ```cpp
-   const char* ssid     = "YOUR_WIFI_SSID";
-   const char* password = "YOUR_WIFI_PASSWORD";
+   const char* ssid     = "SSID_NAME";
+   const char* password = "SSID_PASSWORD";
 
 5.Compile and upload to your ESP32.
 
